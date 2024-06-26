@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptionist Dashboard</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="receptionist.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex">
+                <button class="toggle-btn" type="button">
+                    <i class="lni lni-grid-alt"></i>
+                </button>
+                <div class="sidebar-logo">
+                    <a href="#">KAMILI BEACH RESORT</a>
+                </div>
+            </div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-user"></i>
+                        <span>Guest Profiles</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-calendar"></i>
+                        <span>Reservations</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-key"></i>
+                        <span>Room Management</span>
+                    </a>
+                </li>
+                 
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-cog"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </aside>
+        <div class="main">
+            <nav class="navbar navbar-expand px-4 py-3">
+                <a class="navbar-brand" href="#">
+                    <img src="cropped-kamili-Copy-1.png" alt="Logo" style="height: auto; width: 80px;">
+                </a>
+                <form action="#" class="d-none d-sm-inline-block">
+                </form>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a href="#" data-bs-toggle="dropdown" class="nav-icon pe-md-0">
+                                <img src="account.png" class="avatar img-fluid" alt="">
+                            </a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="content px-3 py-4">
+                <div class="container-fluid">
+                    <div class="mb-3">
+                        <h3 class="fw-bold fs-4 mb-3">Receptionist Dashboard</h3>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body py-4">
+                                        <h5 class="mb-2 fw-bold">
+                                            Total Guests
+                                        </h5>
+                                        <p class="mb-2 fw-bold">
+                                            125
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body py-4">
+                                        <h5 class="mb-2 fw-bold">
+                                            New Reservations
+                                        </h5>
+                                        <p class="mb-2 fw-bold">
+                                            32
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body py-4">
+                                        <h5 class="mb-2 fw-bold">
+                                            Available Rooms
+                                        </h5>
+                                        <p class="mb-2 fw-bold">
+                                            18
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body py-4">
+                                        <h5 class="mb-2 fw-bold">
+                                        Service Requests
+                                        </h5>
+                                        <p class="mb-2 fw-bold">
+                                            45
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h3 class="fw-bold fs-4 my-3">Current Reservations</h3>
+                        <div class="row">
+                            <div class="col-12">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr class="highlight">
+                                            <th scope="col">Reservation Id</th>
+                                            <th scope="col">Guest Name</th>
+                                            <th scope="col">Room Number</th>
+                                            <th scope="col">Check-in</th>
+                                            <th scope="col">Check-out</th>
+                                            <th scope="col">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Thilina Pathum</td>
+                                            <td>101</td>
+                                            <td>2024-06-21</td>
+                                            <td>2024-06-25</td>
+                                            <td><span class="badge bg-success">Checked-in</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>David Guetta</td>
+                                            <td>102</td>
+                                            <td>2024-06-22</td>
+                                            <td>2024-06-26</td>
+                                            <td><span class="badge bg-success">Checked-in</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Pawan Pathiraja</td>
+                                            <td>103</td>
+                                            <td>2024-06-23</td>
+                                            <td>2024-06-27</td>
+                                            <td><span class="badge bg-warning">Pending</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <br>
+                        <h3 class="fw-bold fs-4 my-3">Make Reservations</h3>
+                        <div class="row">
+                            <div class="col-12 d-flex align-items-center justify-content-center">
+                                <div class="reservation-container d-flex">
+                                    <div class="svg-container me-4">
+                                        <img src="8356266_3893222.jpg" width="500px" height="500px">
+                                    </div>
+                                    <form id="reservationForm" class="d-flex flex-column align-items-center">
+                                        <div class="mb-3 w-100">
+                                            <label for="guestName" class="form-label">Guest Name</label>
+                                            <input type="text" class="form-control" id="guestName" required>
+                                        </div>
+                                        <div class="mb-3 w-100">
+                                            <label for="roomNumber" class="form-label">Room Number</label>
+                                            <input type="number" class="form-control" id="roomNumber" required>
+                                        </div>
+                                        <div class="mb-3 w-100">
+                                            <label for="checkInDate" class="form-label">Check-in Date</label>
+                                            <input type="date" class="form-control" id="checkInDate" required>
+                                        </div>
+                                        <div class="mb-3 w-100">
+                                            <label for="checkOutDate" class="form-label">Check-out Date</label>
+                                            <input type="date" class="form-control" id="checkOutDate" required>
+                                        </div>
+                                        <div class="d-flex justify-content-end w-100">
+                                            <button type="submit" class="btn btn-primary me-2">Submit</button>
+                                            <button type="button" class="btn btn-secondary" id="cancelButton">Cancel</button>
+                                        </div>
+                </div>
+            </form>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-TC90MRE6PGrjk3pe2S51Pxz5Gj5krU5kwGVKlgsuk9xoaIpmAaAgEGs7c3KJfqqG" crossorigin="anonymous">
+    </script>
+    <script src="receptionist.js"></script>
+</body>
+
+</html>
