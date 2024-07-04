@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Kamili Beach Resort</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="services.css">
+
+
+</head>
+<body>
+
+  
+        <header>
+            <div class="content flex_space">
+              <div class="logo">
+                <img src="images/cropped-kamili-Copy-1.png" alt="Image" width="70px" height="70px">
+              </div>
+             
+              <div class="navlinks">
+                <ul id="menulist">
+                  <li><a href="#home">Home</a> </li>
+                  <li><a href="#about">About</a> </li>
+                  <li><a href="#rooms">Rooms</a> </li>
+                  <li><a href="#pages">Weddings</a> </li>
+                  <li><a href="#news">Services</a> </li>
+                  <li><a href="#around_us">Around Us</a> </li>
+                  <li><a href="#contact">Contact</a> </li>
+        
+                  <!-- <li> <i class="fa fa-search"></i> </li> -->
+                  <li> <button class="primary-btn">BOOK NOW</button> </li>
+                </ul>
+                <span class="fa fa-bars" onclick="menutoggle()"></span>
+              </div>
+            </div>
+          </header>
+
+          
+          
+        
+        
+          <script>
+            var menulist = document.getElementById('menulist');
+            menulist.style.maxHeight = "0px";
+        
+            function menutoggle() {
+              if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "100vh";
+              } else {
+                menulist.style.maxHeight = "0px";
+              }
+            }
+          </script>
+        <br>
+        </header>
+
+        <div class="facilities-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                       
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="facility-item">
+                            <img src="https://kamilibeach.com/wp-content/uploads/2017/07/icon-18.png" alt="TV Icon">
+                            <h1>TV</h1>
+                            <h4>SATELLITE</h4>
+                        </div>
+                        <div class="facility-item">
+                            <img src="https://kamilibeach.com/wp-content/uploads/2017/07/icon-17.png" alt="Food Icon">
+                            <h1>Food</h1>
+                            <h4>DELICIOUS</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="facility-item">
+                            <img src="https://kamilibeach.com/wp-content/uploads/2017/07/icon-11-1.png" alt="Beach Icon">
+                            <h1>Beach</h1>
+                            <h4>BEAUTIFUL</h4>
+                        </div>
+                        <div class="facility-item">
+                            <img src="https://kamilibeach.com/wp-content/uploads/2017/07/icon-12.png" alt="Bed Icon">
+                            <h1>Bed</h1>
+                            <h4>KING SIZE</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Pool -->
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <img src="images/pool.jpg" class="card-img-top" alt="Pool">
+                    <div class="card-body text-center">
+                        <i class="fas fa-swimming-pool service-icon"></i>
+                        <h5 class="card-title">The Pool</h5>
+                        <p class="card-text">Enjoy a refreshing dip or lounge by our beautiful pool, perfect for a relaxing day under the sun.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Spa -->
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <img src="images/spa.jpg" class="card-img-top" alt="Spa">
+                    <div class="card-body text-center">
+                        <i class="fas fa-spa service-icon"></i>
+                        <h5 class="card-title">Ayurvedic Spa</h5>
+                        <p class="card-text">Unwind with daily spa treatments at our Ayurvedic spa, where trained therapists rejuvenate your body and mind.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Gym -->
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <img src="images/gym.jpg" class="card-img-top" alt="Gym">
+                    <div class="card-body text-center">
+                        <i class="fas fa-dumbbell service-icon"></i>
+                        <h5 class="card-title">The Gym</h5>
+                        <p class="card-text">Stay fit with our basic gym facilities or enjoy a run on the beach with fresh air and scenic views.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Souvenir Shop -->
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <img src="images/souveni.jpg" class="card-img-top" alt="Souvenir Shop">
+                    <div class="card-body text-center">
+                        <i class="fas fa-store service-icon"></i>
+                        <h5 class="card-title">Souvenir Shop</h5>
+                        <p class="card-text">Explore local culture with our range of traditional attire and unique gifts perfect for souvenirs.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Library -->
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <img src="images/lib.jpg" class="card-img-top" alt="Library">
+                    <div class="card-body text-center">
+                        <i class="fas fa-book service-icon"></i>
+                        <h5 class="card-title">Library</h5>
+                        <p class="card-text">Relax with a book from our library, featuring a variety of topics in multiple languages including French.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Activities -->
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <img src="images/game.jpg" class="card-img-top" alt="Activities">
+                    <div class="card-body text-center">
+                        <i class="fas fa-futbol service-icon"></i>
+                        <h5 class="card-title">Games & Activities</h5>
+                        <p class="card-text">Enjoy beach volleyball, football, cricket, water polo, mini golf, and croquet during your stay.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--footer-->
+<!-- <footer>
+    <div class="container grid">
+
+      <div class="box">
+        <img src="images/cropped-kamili-Copy-1.png" alt="Logo">
+        <p>We draw our inspiration from the word ‘Kamili’ which denotes the city of Kalutara, <br>an age-old
+          symbol in Buddhism that stands for purity of body, mind and soul.<br>We draw our inspiration from
+          the word ‘Kamili’ which denotes the city of Kalutara,<br> an age-old symbol in Buddhism that stands
+          for purity of body, mind and soul.</p>
+
+        <div class="icon">
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Links</h2>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Services</li>
+          <li>Weddings</li>
+          <li>Around Us</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h2>Contact Us</h2>
+        <i class="fa fa-location-dot"> Location</i>
+        <br>
+        <label><br>No. 531,<br>
+          First Station Road,<br>
+          Waskaduwa,<br>
+          Kalutara,<br>
+          Sri Lanka.</label> <br>
+        <i class="fa fa-phone"> Hotline</i><br>
+        <label>+ (94) 76 2 760 765</label> <br>
+        <i class="fa fa-envelope"> Email</i><br>
+        <label>reservation@kamilibeach.com</label> <br>
+      </div>
+    </div>
+    <section>
+
+    </section>
+  </footer>
+
+  <div class="legal">
+    <p class="container" style="margin-left: 600px;">Copyright (c) 2024 - All Rights Reserved.</p>
+  </div> -->
+  <!--end of footer-->
+   
+    
+  <script src="https://kit.fontawesome.com/032d11eac3.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
